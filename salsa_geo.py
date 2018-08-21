@@ -75,7 +75,7 @@ for bike in bike_list:
     df_list.append(pd.DataFrame(salsa_geo(url_prefix,bike)))
     
 geo_df = pd.concat(df_list,sort=False)
-df2=geo_df.set_index(['Model','Size'])
+geo_df.set_index(['Model','Size'],inplace=True)
 geo_df.to_csv('salsa_geometry.csv')
 print('program complete')
 
