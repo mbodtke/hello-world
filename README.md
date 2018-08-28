@@ -1,10 +1,10 @@
 # hello-world
-Hello GitHub
+<small>Hello GitHub</small>
 
-Data Engineer expanding developer skillset with python projects.
+<em>Data Engineer expanding developer skillset with python projects.</em>
 
-salsa_geo.py
-  Using a list of predetermined bike model names,  scrapes salsacycles.com and retrieves relevant geometry information.
+<b>salsa_geo.py -</b>
+Using a list of predetermined bike model names,  scrapes salsacycles.com to retrieve relevant geometry information and save it to a CSV file.
 
 
 
